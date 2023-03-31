@@ -70,7 +70,7 @@ public class Controller extends HttpServlet {
 
 	protected void insert(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
-//		System.out.println(request.getParameter("nome"));
+		System.out.println(request.getParameter("nome"));
 		contato.setNome(request.getParameter("nome"));
 		contato.setEmail(request.getParameter("email"));
 		contato.setFone(request.getParameter("fone"));

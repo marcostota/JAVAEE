@@ -27,6 +27,7 @@
 		</table>
 		<input type="button" value="Salvar" class="btn1" onclick="validar()">
 		
+		
 	</form>
 	<script src="scripts/validador.js"></script>
 </body>

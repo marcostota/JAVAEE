@@ -22,6 +22,7 @@ public class JavaBeans {
 
 	public String getIdcon() {
 		return idcon;
+
 	}
 
 	public void setIdcon(String idcon) {
